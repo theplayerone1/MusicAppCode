@@ -15,12 +15,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+ 
+  
 }
 
 #sign-up {
-  /* background: linear-gradient(to right, hsl(147, 98%, 28%) 60%, purple); */
+  font-size: xx-large;
 }
 
 #learn-more {
-  /* background: linear-gradient(to right, purple 60%, hsl(147, 98%, 28%)); */
+ background-color: yellow;
 }

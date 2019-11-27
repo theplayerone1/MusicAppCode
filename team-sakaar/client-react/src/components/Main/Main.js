@@ -6,19 +6,19 @@ import { Col, Row, Button } from "react-bootstrap";
 function Main() {
   return (
     <Row id="Main" className="">
-      <Col className="">
-        <div className="" style={{ marginTop: 50 }}>
+      <Col className="background-image">
+        <div className="background-image flex" style={{ marginTop: 50 }}>
           <p
             className=""
             style={{ fontSize: "2.5em", textShadow: "1px 1px 1px black" }}
           >
-            Are you looking to hire a band?
+            Are you a Musician looking for a Gig?
           </p>
           <p
             className=""
             style={{ fontSize: "2.5em", textShadow: "1px 1px 1px black" }}
           >
-            Are you a band looking for a local gig?
+            Are you looking for a Musician to play?
           </p>
           <p
             className="font-weight-bold"
@@ -39,8 +39,9 @@ function Main() {
           <p>
             <Button
               id="learn-more"
-              className="btn-lg"
-              variant="outline-warning"
+              className="btn-lg active"
+              variant="outline-light"
+              
             >
               Learn More
             </Button>
