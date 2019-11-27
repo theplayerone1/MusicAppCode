@@ -1,0 +1,31 @@
+#profile-container {
+    margin-top: 5%;
+}
+#profile-edit #icon {
+    cursor: pointer;
+}
+#client-profile-pic {
+    background-image: url('../../../images/profile-pic400x400.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.col-sm {
+
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    border: 1px solid blue; 
+
+
+}
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
