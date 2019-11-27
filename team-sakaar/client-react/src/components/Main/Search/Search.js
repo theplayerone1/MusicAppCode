@@ -71,7 +71,7 @@ function Search() {
 
         {/* *********************************SEARCH-TWO****************************************** */}
 
-
+{/* 
         <p className='text-left'> Example 2 - your basic search box</p>
         <InputGroup className="mb-3">
           <FormControl
@@ -85,11 +85,11 @@ function Search() {
               <SearchLocation size="18" />
             </Button>
           </InputGroup.Append>
-        </InputGroup>
+        </InputGroup> */}
 
         {/* ************************************SEARCH-THREE*************************************** */}
 
-        <p className='text-left'>Example 3 - these are links and we would have to create each page for each Genre.</p>
+        {/* <p className='text-left'>Example 3 - these are links and we would have to create each page for each Genre.</p> */}
         <InputGroup className="mb-3 " size='lg'>
 
             
@@ -125,7 +125,7 @@ function Search() {
 
                 {/* ************************************SEARCH-FOUR*************************************** */}
 
-                <p className='text-left'>Example 4 - pick and search</p>
+                {/* <p className='text-left'>Example 4 - pick and search</p>
 
                   <InputGroup className="mb-3" size='lg'>
 
@@ -145,7 +145,7 @@ function Search() {
                           </Button>
                       </InputGroup.Append>
 
-                    </InputGroup>
+                    </InputGroup> */}
 
       </Col>
     </Row>

@@ -24,6 +24,7 @@ function Footer() {
     <Container>
       <Row className="" style={{ height: 100 }} id="footer">
         <Col className="mt-5">
+          <footer>
           <a
             href="/"
             className="float-left"
@@ -34,7 +35,7 @@ function Footer() {
             Home
           </a>
 
-          <div className="float-right">
+          <div className="float-left">
             <a
               id="about-us"
               href="/about-us"
@@ -54,6 +55,7 @@ function Footer() {
               Contact Us
             </a>
           </div>
+          </footer>
         </Col>
       </Row>
     </Container>
